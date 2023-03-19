@@ -1,0 +1,118 @@
+.root{
+  --text--: #ffffff;
+  --bg-color: #181818 !important;
+  --second-bg-color: #444242 !important;
+  --main-color: #e31a53 !important;
+}
+.container-pf{
+    background:  #181818 !important;   
+}
+.navbar{
+ background-color: #444242 !important;   
+}
+.navbar-brand{
+    color: #e31a53 !important;
+    font-weight: 900 !important;
+}
+.nav-link{
+    color:#ffffff !important;
+    padding-left: 15% !important;
+}
+.nav-link:hover{
+    color:#e31a53 !important;
+}
+.h3-pf{
+    margin-top: 20%;
+    color: var(--text--);
+}
+h1{
+    font-size: 48px;
+    color: #ffffff!important;
+}
+h3{
+    color: #ffffff !important; 
+    font-size: 30px;
+}
+h3:nth-of-type(2){
+    margin-bottom: 2rem;
+}
+span{
+    color:  #e31a53 !important;
+}
+.icon-pf{
+    color: #e31a53 !important;
+    border-color: #e31a53 !important;
+}
+.icon-pf:hover{
+    color: #1a1919 !important;
+    background-color: #e31a53 !important;
+}
+.p-pf{
+   color:  #f5f5f5 !important;
+}
+.btn-pf{
+    color: #1b1b1b !important;
+    background: #e31a53 !important;
+    border-color: #e31a53 !important;
+    font-size: 18px;
+    font-weight: bolder;
+    /* text-align: center !important; */
+}
+.btn-pf:hover{
+   background-color:#1f1d1d !important;
+   color:#e31a53 !important ;
+}
+.card-pf-1{
+    margin-top: 15% !important;
+    background-color: #444242 !important;
+    cursor: pointer;
+}
+.card-pf-1:hover{
+   border-color: #e31a53 !important;
+   opacity: 0.5;
+}
+.card-pf-1 h3{
+    color: #e31a53 !important;
+}
+.card-header-pf{
+    padding-top: 10% !important;
+    text-align: center;
+    font-weight: 600;
+}
+.card-pf-2{
+     border-radius: 20px !important;
+     background-color:#444242 !important;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     transition: transform 0.5s;
+}
+.card-pf-2:hover{
+    border-color: #e31a53 !important;
+    transform: scale(1.05);
+    opacity: 1;
+}
+.card-img-top{
+    padding-top: 5% !important;
+     width: 90%;
+}
+.card-title{
+    color: #ffffff !important;
+}
+.card-group-pf{
+    margin-top: 2% !important;
+    margin-bottom: 2% !important;
+}
+footer{
+     background-color: #444242 !important;   
+     color: #ffffff !important;
+}
+
+  @media(max-width:576px){
+    .btn-pf{
+        font-size: 16px !important;
+    }
+
+  }
+
+
